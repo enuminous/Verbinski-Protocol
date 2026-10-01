@@ -1,0 +1,1 @@
+const E=require('../src/institutional-feedback');const r=E.runExperiment({trials:1000,seed:'VERBINSKI-EXP-001'});console.log(JSON.stringify({id:r.id,seed:r.seed,trialsPerCondition:r.trialsPerCondition,...r.results},null,2));
