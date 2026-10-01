@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Verbinski Protocol</title>
+<style>
+body{margin:0;background:#0b0b0c;color:#f5f3eb;font:16px/1.55 system-ui,sans-serif}main{max-width:920px;margin:auto;padding:64px 22px}h1{font-size:clamp(42px,9vw,90px);line-height:.92;letter-spacing:-.05em;margin:.2em 0}.k{color:#ffdf6e;text-transform:uppercase;letter-spacing:.15em;font-size:12px;font-weight:800}.panel{border:1px solid #2c2c30;border-radius:18px;padding:22px;margin:22px 0;background:#121216}button{background:#ffdf6e;color:#111;border:0;border-radius:10px;padding:11px 14px;font-weight:800;cursor:pointer}pre{white-space:pre-wrap;color:#b7e4ff;background:#08080a;padding:15px;border-radius:12px;overflow:auto}.warn{border-left:4px solid #ffdf6e;padding-left:14px;color:#c8c5bb}code{color:#b7e4ff}</style>
+</head>
+<body><main>
+<p class="k">Narrative systems / counterfactual search</p>
+<h1>Verbinski Protocol</h1>
+<p>Branch. Intervene. Observe. Remember. Reset. Recurse.</p>
+<div class="panel"><h2>Known Issues</h2><p>Humanity · social media · optimization · memory asymmetry · Sam Rockwell is exhausted.</p></div>
+<div class="panel"><h2>Run 117 attempts</h2><button id="run">Run the diner loop</button><pre id="out">Ready.</pre></div>
+<p class="warn">This is a toy analytical model, not a prediction engine. The objective function is intentionally visible because changing its weights changes what the system calls a good future.</p>
+</main>
+<script src="src/protocol.js"></script>
+<script>
+const out=document.querySelector('#out');
+document.querySelector('#run').onclick=()=>{
+ const V=window.VerbinskiProtocol;
+ const r=V.search({seed:'GOOD-LUCK-117'},['teacher','parent','skeptic','organizer','engineer','medic'],[
+  ['coordinate','verify'],['disconnect','preserve-memory'],['decentralize','coordinate','verify'],['disconnect','coordinate','preserve-memory']
+ ],117);
+ out.textContent=JSON.stringify({attempts:r.attempts,bestAttempt:r.best.attempt,bestPlan:r.best.plan,bestOutcome:r.best.outcome,warning:V.explainObjective().warning},null,2);
+};
+</script></body></html>
