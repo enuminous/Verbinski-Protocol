@@ -1,0 +1,39 @@
+
+> verbinski-protocol@0.1.0 demo
+> node examples/run-117.js
+
+{
+  "attempts": 117,
+  "bestAttempt": 51,
+  "bestPlan": {
+    "cohort": [
+      "skeptic",
+      "engineer"
+    ],
+    "actions": [
+      "decentralize",
+      "coordinate",
+      "verify"
+    ]
+  },
+  "bestOutcome": {
+    "catastrophe": 0.5414207859060904,
+    "survival": 0.416538323575519,
+    "agency": 0.5549183235755191,
+    "cohesion": 0.46462722547482693,
+    "truth": 0.5434591617877595,
+    "dependency": 0.7534591617877595,
+    "score": 0.3591746947307803
+  },
+  "objective": {
+    "equation": "J = wS·survival + wA·agency + wC·cohesion + wT·truth - wD·dependency",
+    "weights": {
+      "survival": 0.34,
+      "agency": 0.24,
+      "cohesion": 0.18,
+      "truth": 0.14,
+      "dependencyPenalty": 0.1
+    },
+    "warning": "Changing the weights changes what the system calls a good future."
+  }
+}
