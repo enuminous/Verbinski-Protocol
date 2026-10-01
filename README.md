@@ -50,7 +50,7 @@ The simulator is intentionally **not** a prediction engine. It is a transparent 
 ## Repository map
 
 - `src/protocol.js` — deterministic branch/reset/search model
-- `examples/run-117.js` — 117-attempt demonstration
+- `examples/run-117.js` — 117-attempt demonstration\n- `src/institutional-feedback.js` — VERBINSKI-EXP-001 feedback experiment\n- `examples/run-exp-001.js` — seeded institutional-feedback runner\n- `docs/VERBINSKI-EXP-001.md` — hypothesis, metrics, failure condition, and interpretation boundary
 - `tests/protocol.test.js` — determinism, reset-memory, search, and objective tests
 - `docs/NARRATIVE-MODEL.md` — narrative state machine
 - `docs/ARCHIMEDES-MAPPING.md` — mapping to checkpointed counterfactual simulation
@@ -83,6 +83,6 @@ A system can become extraordinarily good at searching futures without acquiring 
 
 ## Status
 
-`v0.1.0` — runnable analytical prototype.
+`v0.2.0` — adds VERBINSKI-EXP-001, a falsifiable toy experiment on independent versus correlated institutional feedback.
 
 Not affiliated with the filmmakers or rights holders. No screenplay text or production assets are included.
