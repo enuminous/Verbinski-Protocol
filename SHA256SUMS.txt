@@ -9,7 +9,7 @@ b2fd3ef51251b9f7437b58adc4cd7216390adff45cb16e9d3ef488b0786a606c  ./docs/NARRATI
 e4b75ca7fb995cc60fcc11007285ed1c4dbaf9257228b75fe4ff687f02e785ba  ./docs/SOURCES.md
 1e642781c7e739366f5fdf6adfeefce3c806cfacdf8864fdc08443f630a976c1  ./examples/run-117.js
 f7b63babb7c9edc370e42c7a8c5d1294e45ffb73892e93e8f668b728a66d7b4b  ./examples/sample-output.json
-fda478c53da9aaf1801e6c7d330d125606623ead2f1ec53e52a6d262071b212b  ./index.html
+0818c78ecf1da53fd12bcd9f447ea0bb5ffd41e36a872bd647ae9ba5895e96e1  ./index.html
 ddb6e9d105d83a021b9aa0ec2048e58b78b2ea9b42d10278e342ec2dd8a71a7d  ./package.json
 fdec44eecaa40cba665e0a2463e8a9494dccd75ccf289700a331ef232379ae4a  ./src/protocol.js
 129b25e96e1bcacb1b7556f15ccd9f2feb823c260a107b6c7c32ad22b0c5f795  ./tests/protocol.test.js
