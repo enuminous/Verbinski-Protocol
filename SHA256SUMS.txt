@@ -1,5 +1,5 @@
 3a3bcf768c25d0483b1e4b81f5a2879def4f8160c994929ae3a997511dbd84ae  ./.gitignore
-74b2194557add05ac8be80e76888c0fc347c16400775ebba3cfc9dc28751c479  ./README.md
+7045b489d4e9e567020495a107b7bbfb90a03bb1f0d8d4db6efedd521131a4ec  ./README.md
 d2f5b169e7517fde93f8cbbe290f4b68a6eb3330570b9e86cafcfc5530bd43bc  ./RIGHTS.md
 
 770596240d7066d8ca38365201eca9f65deafa5ac49a06158755d29194f9a51e  ./docs/ARCHIMEDES-MAPPING.md
@@ -9,7 +9,7 @@ b2fd3ef51251b9f7437b58adc4cd7216390adff45cb16e9d3ef488b0786a606c  ./docs/NARRATI
 e4b75ca7fb995cc60fcc11007285ed1c4dbaf9257228b75fe4ff687f02e785ba  ./docs/SOURCES.md
 1e642781c7e739366f5fdf6adfeefce3c806cfacdf8864fdc08443f630a976c1  ./examples/run-117.js
 f7b63babb7c9edc370e42c7a8c5d1294e45ffb73892e93e8f668b728a66d7b4b  ./examples/sample-output.json
-0818c78ecf1da53fd12bcd9f447ea0bb5ffd41e36a872bd647ae9ba5895e96e1  ./index.html
+233a0e6d390ed26c10ac735a3f52b88ccf27484dc91e0ca7ee8e75d6e1a5ac31  ./index.html
 ddb6e9d105d83a021b9aa0ec2048e58b78b2ea9b42d10278e342ec2dd8a71a7d  ./package.json
 fdec44eecaa40cba665e0a2463e8a9494dccd75ccf289700a331ef232379ae4a  ./src/protocol.js
 129b25e96e1bcacb1b7556f15ccd9f2feb823c260a107b6c7c32ad22b0c5f795  ./tests/protocol.test.js
